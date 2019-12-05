@@ -1,76 +1,134 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
-    background-color: #4aaaa5;
+
+body {
+    background-color: #7FC6B8;
 }
 
-.headercontent{
-    background-color: #ffffff;
-    border-color: #cccccc;
+.container {
+    background-image: url(../images/wallpaper.jpg);
+}
+
+.header {
+    background-color: #E8A87C;
+    border-bottom: 2px solid #cccccc;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     position: fixed;
     width: 100%;
-    clear: both;
-    top: 0;
+    top: 20px;
+    /* margin: 0; */
 }
 
-h1{
-    background-color: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    width: 25%;
-    float: left;
-    padding: 15px 40px;
-    margin: 0;
+.nameBox {
+    background-color: #7FC6B8;
+    color: #fff;
+    border: 2px solid #E8A87C;
+    padding: 25px 40px 25px 40px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 24px;
 }
 
-.linkcontainer{
-    width: 75%;
+.linkBox {
     float: right;
-    text-align: right;
 }
 
-.links{
-    color: #777777;
-    text-decoration: none;
+.link {
+    background: none;
     padding: 25px 40px;
-    display: inline-block
+    border: none;
 }
 
+#portfolio {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
 
-.maincontent{
-    clear: both;
-    overflow: auto;
-    background-color: #ffffff;
-    border-color: #dddddd;
-    align-content: center;
+a {
+    text-decoration: none;
+    color: #E27D60;
+    font-weight: bolder;
+}
+
+.main {
+    background-color: #7FC6B8;
+    border: 1px solid #dddddd;
+    color: #fff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    width: 960px;
-    margin: 100px auto 0;
-    padding: 25px;
-}
-
-h2{
-    text-align: left;
-    color: #4aaaa5;
-}
-
-img{
-    float: left;
-    width: 250px;
+    line-height: 2;
     height: auto;
+    margin: 0px 150px;
+    padding: 50px;
 }
 
-
-p{
-    overflow: auto;
-    line-height: 50px; 
+h2 {
+    margin: 75px auto 0;
+    text-align: left;
+    color: #E27D60;
+    border-bottom: 2px solid #cccccc;
 }
 
+#portfolioImage {
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    float: left;
+}
 
-footer{
-    background-color: #666666;
+.passwordGenImgDiv {
+    background-image: url("../images/Password Generator.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 75px;
+}
+
+#passwordGeneratorLink {
+    padding: 5px;
+    background-color: #7FC6B8;
+    color: #fff;
+    font-size: 12px;
+}
+
+.foodAndFunImgDiv {
+    background-image: url("../images/Food\ and\ Fun.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 75px;
+}
+
+#foodAndFunLink {
+    padding: 5px;
+    background-color: #7FC6B8;
+    color: #fff;
+    font-size: 12px;
+}
+
+.weatherDashboardImgDiv {
+    background-image: url("../images/weatherDashboard.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 75px;
+}
+
+#weatherDashboardLink {
+    padding: 5px;
+    background-color: #7FC6B8;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer {
     clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E8A87C;
+    color: #E27D60;
     text-align: center;
 }
